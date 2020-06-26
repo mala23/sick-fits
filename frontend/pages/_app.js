@@ -1,11 +1,11 @@
 import App, { Container } from 'next/app';
 import Page from '../components/Page';
 
-class sickfitsApp extends App {
+class MyApp extends App {
   render() {
     const { Component } = this.props;
 
-    return(
+    return (
       <Container>
         <Page>
           <Component />
@@ -15,4 +15,4 @@ class sickfitsApp extends App {
   }
 }
 
-export default sickfitsApp;
+export default MyApp;
