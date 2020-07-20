@@ -18,4 +18,11 @@ function createServer() {
   });
 }
 
+const opts = {
+  port: 4000,
+  cors: {
+    origin: [""]
+  }
+};
+
 module.exports = createServer;
